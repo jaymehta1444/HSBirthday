@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    font-family: 'Happy Monkey', cursive;
+    text-align:center;
+    color:#ffffff;
+    text-shadow: 0px 0px 2px black;
+}
+#header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hate{
+    background: #EFB0C9;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius:5px;
+    margin: 5px 0px 10px 0px;
+}
+#hs{
+    background: #EFB0C9;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius:5px;
+    margin:0;
+}
+span{
+    color:navy;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+#pic{
+    margin: 0px auto;
+    width: 200px;
+    height: 400px;
+    border: 6px solid #EFB0C9;
+    border-radius: 50%;
+}
+.gift{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0;
+}
+.gift-img{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size:cover;
+}
+#gift-img-happy:hover{
+    background-image:url("images/happy.gif")
+}
+#gift-img-hot:hover{
+    background-image:url("images/hot.gif")
+}
+#gift-img-genius:hover{
+    background-image:url("images/genius.gif")
+}
+#gift-img-love:hover{
+    background-image:url("images/love.gif")
+}
+#gift-img-cheers:hover{
+    background-image:url("images/cheers.gif")
+}
+#gift-img-cheers{
+    height: 200px;
+}
